@@ -1,0 +1,135 @@
+Processing insception_FC-CL
+
+2023-03-31 15:36:02.468613: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-03-31 15:36:02.602706: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-03-31 15:36:03.290055: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2023-03-31 15:36:03.290096: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-03-31 15:36:04.049456: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-03-31 15:36:04.579748: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 30970 MB memory:  -> device: 1, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:81:00.0, compute capability: 7.0
+Loaded insception_FC-CL model.
+Epoch 1/30
+2023-03-31 15:36:08.509420: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384] Loaded cuDNN version 8101
+2023-03-31 15:36:08.812722: I tensorflow/core/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+
+Epoch 1: saving model to Models/insception_FC-CL/epoch_01.h5
+968/968 - 100s - loss: 6.4835 - TPos: 3612.0000 - FNeg: 4132.0000 - TNeg: 4156.0000 - FPos: 3588.0000 - val_loss: 6.4754 - val_TPos: 367.0000 - val_FNeg: 113.0000 - val_TNeg: 104.0000 - val_FPos: 376.0000 - 100s/epoch - 104ms/step
+Epoch 2/30
+
+Epoch 2: saving model to Models/insception_FC-CL/epoch_02.h5
+968/968 - 95s - loss: 6.4700 - TPos: 3403.0000 - FNeg: 4341.0000 - TNeg: 4203.0000 - FPos: 3541.0000 - val_loss: 6.4630 - val_TPos: 477.0000 - val_FNeg: 3.0000 - val_TNeg: 26.0000 - val_FPos: 454.0000 - 95s/epoch - 98ms/step
+Epoch 3/30
+
+Epoch 3: saving model to Models/insception_FC-CL/epoch_03.h5
+968/968 - 95s - loss: 6.4562 - TPos: 3161.0000 - FNeg: 4583.0000 - TNeg: 4077.0000 - FPos: 3667.0000 - val_loss: 6.4477 - val_TPos: 6.0000 - val_FNeg: 474.0000 - val_TNeg: 400.0000 - val_FPos: 80.0000 - 95s/epoch - 98ms/step
+Epoch 4/30
+
+Epoch 4: saving model to Models/insception_FC-CL/epoch_04.h5
+968/968 - 95s - loss: 6.4426 - TPos: 3067.0000 - FNeg: 4677.0000 - TNeg: 3994.0000 - FPos: 3750.0000 - val_loss: 6.4354 - val_TPos: 0.0000e+00 - val_FNeg: 480.0000 - val_TNeg: 444.0000 - val_FPos: 36.0000 - 95s/epoch - 98ms/step
+Epoch 5/30
+
+Epoch 5: saving model to Models/insception_FC-CL/epoch_05.h5
+968/968 - 95s - loss: 6.4279 - TPos: 2777.0000 - FNeg: 4967.0000 - TNeg: 3925.0000 - FPos: 3819.0000 - val_loss: 6.4185 - val_TPos: 1.0000 - val_FNeg: 479.0000 - val_TNeg: 392.0000 - val_FPos: 88.0000 - 95s/epoch - 98ms/step
+Epoch 6/30
+
+Epoch 6: saving model to Models/insception_FC-CL/epoch_06.h5
+968/968 - 95s - loss: 6.4124 - TPos: 2535.0000 - FNeg: 5209.0000 - TNeg: 3701.0000 - FPos: 4043.0000 - val_loss: 6.3977 - val_TPos: 35.0000 - val_FNeg: 445.0000 - val_TNeg: 225.0000 - val_FPos: 255.0000 - 95s/epoch - 98ms/step
+Epoch 7/30
+
+Epoch 7: saving model to Models/insception_FC-CL/epoch_07.h5
+968/968 - 95s - loss: 6.3962 - TPos: 2511.0000 - FNeg: 5233.0000 - TNeg: 3527.0000 - FPos: 4217.0000 - val_loss: 6.3819 - val_TPos: 4.0000 - val_FNeg: 476.0000 - val_TNeg: 309.0000 - val_FPos: 171.0000 - 95s/epoch - 98ms/step
+Epoch 8/30
+
+Epoch 8: saving model to Models/insception_FC-CL/epoch_08.h5
+968/968 - 95s - loss: 6.3781 - TPos: 2281.0000 - FNeg: 5463.0000 - TNeg: 3370.0000 - FPos: 4374.0000 - val_loss: 6.3517 - val_TPos: 13.0000 - val_FNeg: 467.0000 - val_TNeg: 244.0000 - val_FPos: 236.0000 - 95s/epoch - 98ms/step
+Epoch 9/30
+
+Epoch 9: saving model to Models/insception_FC-CL/epoch_09.h5
+968/968 - 95s - loss: 6.3586 - TPos: 2049.0000 - FNeg: 5695.0000 - TNeg: 3189.0000 - FPos: 4555.0000 - val_loss: 6.3322 - val_TPos: 10.0000 - val_FNeg: 470.0000 - val_TNeg: 237.0000 - val_FPos: 243.0000 - 95s/epoch - 98ms/step
+Epoch 10/30
+
+Epoch 10: saving model to Models/insception_FC-CL/epoch_10.h5
+968/968 - 95s - loss: 6.3382 - TPos: 1940.0000 - FNeg: 5804.0000 - TNeg: 2991.0000 - FPos: 4753.0000 - val_loss: 6.2987 - val_TPos: 25.0000 - val_FNeg: 455.0000 - val_TNeg: 200.0000 - val_FPos: 280.0000 - 95s/epoch - 98ms/step
+Epoch 11/30
+
+Epoch 11: saving model to Models/insception_FC-CL/epoch_11.h5
+968/968 - 95s - loss: 6.3180 - TPos: 1788.0000 - FNeg: 5956.0000 - TNeg: 2897.0000 - FPos: 4847.0000 - val_loss: 6.2756 - val_TPos: 26.0000 - val_FNeg: 454.0000 - val_TNeg: 178.0000 - val_FPos: 302.0000 - 95s/epoch - 98ms/step
+Epoch 12/30
+
+Epoch 12: saving model to Models/insception_FC-CL/epoch_12.h5
+968/968 - 96s - loss: 6.2985 - TPos: 1655.0000 - FNeg: 6089.0000 - TNeg: 2843.0000 - FPos: 4901.0000 - val_loss: 6.2560 - val_TPos: 21.0000 - val_FNeg: 459.0000 - val_TNeg: 207.0000 - val_FPos: 273.0000 - 96s/epoch - 99ms/step
+Epoch 13/30
+
+Epoch 13: saving model to Models/insception_FC-CL/epoch_13.h5
+968/968 - 95s - loss: 6.2803 - TPos: 1480.0000 - FNeg: 6264.0000 - TNeg: 2791.0000 - FPos: 4953.0000 - val_loss: 6.2417 - val_TPos: 35.0000 - val_FNeg: 445.0000 - val_TNeg: 138.0000 - val_FPos: 342.0000 - 95s/epoch - 98ms/step
+Epoch 14/30
+
+Epoch 14: saving model to Models/insception_FC-CL/epoch_14.h5
+968/968 - 95s - loss: 6.2628 - TPos: 1410.0000 - FNeg: 6334.0000 - TNeg: 2722.0000 - FPos: 5022.0000 - val_loss: 6.2199 - val_TPos: 21.0000 - val_FNeg: 459.0000 - val_TNeg: 165.0000 - val_FPos: 315.0000 - 95s/epoch - 98ms/step
+Epoch 15/30
+
+Epoch 15: saving model to Models/insception_FC-CL/epoch_15.h5
+968/968 - 95s - loss: 6.2460 - TPos: 1382.0000 - FNeg: 6362.0000 - TNeg: 2663.0000 - FPos: 5081.0000 - val_loss: 6.2021 - val_TPos: 17.0000 - val_FNeg: 463.0000 - val_TNeg: 165.0000 - val_FPos: 315.0000 - 95s/epoch - 98ms/step
+Epoch 16/30
+
+Epoch 16: saving model to Models/insception_FC-CL/epoch_16.h5
+968/968 - 95s - loss: 6.2298 - TPos: 1341.0000 - FNeg: 6403.0000 - TNeg: 2587.0000 - FPos: 5157.0000 - val_loss: 6.1829 - val_TPos: 20.0000 - val_FNeg: 460.0000 - val_TNeg: 152.0000 - val_FPos: 328.0000 - 95s/epoch - 98ms/step
+Epoch 17/30
+
+Epoch 17: saving model to Models/insception_FC-CL/epoch_17.h5
+968/968 - 95s - loss: 6.2129 - TPos: 1254.0000 - FNeg: 6490.0000 - TNeg: 2452.0000 - FPos: 5292.0000 - val_loss: 6.1697 - val_TPos: 19.0000 - val_FNeg: 461.0000 - val_TNeg: 152.0000 - val_FPos: 328.0000 - 95s/epoch - 99ms/step
+Epoch 18/30
+
+Epoch 18: saving model to Models/insception_FC-CL/epoch_18.h5
+968/968 - 95s - loss: 6.1959 - TPos: 1189.0000 - FNeg: 6555.0000 - TNeg: 2384.0000 - FPos: 5360.0000 - val_loss: 6.1484 - val_TPos: 21.0000 - val_FNeg: 459.0000 - val_TNeg: 123.0000 - val_FPos: 357.0000 - 95s/epoch - 98ms/step
+Epoch 19/30
+
+Epoch 19: saving model to Models/insception_FC-CL/epoch_19.h5
+968/968 - 95s - loss: 6.1770 - TPos: 1122.0000 - FNeg: 6622.0000 - TNeg: 2237.0000 - FPos: 5507.0000 - val_loss: 6.1387 - val_TPos: 49.0000 - val_FNeg: 431.0000 - val_TNeg: 102.0000 - val_FPos: 378.0000 - 95s/epoch - 98ms/step
+Epoch 20/30
+
+Epoch 20: saving model to Models/insception_FC-CL/epoch_20.h5
+968/968 - 95s - loss: 6.1563 - TPos: 1012.0000 - FNeg: 6732.0000 - TNeg: 2064.0000 - FPos: 5680.0000 - val_loss: 6.1208 - val_TPos: 41.0000 - val_FNeg: 439.0000 - val_TNeg: 96.0000 - val_FPos: 384.0000 - 95s/epoch - 98ms/step
+Epoch 21/30
+
+Epoch 21: saving model to Models/insception_FC-CL/epoch_21.h5
+968/968 - 95s - loss: 6.1357 - TPos: 964.0000 - FNeg: 6780.0000 - TNeg: 1920.0000 - FPos: 5824.0000 - val_loss: 6.0977 - val_TPos: 24.0000 - val_FNeg: 456.0000 - val_TNeg: 109.0000 - val_FPos: 371.0000 - 95s/epoch - 98ms/step
+Epoch 22/30
+
+Epoch 22: saving model to Models/insception_FC-CL/epoch_22.h5
+968/968 - 95s - loss: 6.1171 - TPos: 888.0000 - FNeg: 6856.0000 - TNeg: 1798.0000 - FPos: 5946.0000 - val_loss: 6.0854 - val_TPos: 26.0000 - val_FNeg: 454.0000 - val_TNeg: 99.0000 - val_FPos: 381.0000 - 95s/epoch - 99ms/step
+Epoch 23/30
+
+Epoch 23: saving model to Models/insception_FC-CL/epoch_23.h5
+968/968 - 95s - loss: 6.0991 - TPos: 806.0000 - FNeg: 6938.0000 - TNeg: 1706.0000 - FPos: 6038.0000 - val_loss: 6.0721 - val_TPos: 24.0000 - val_FNeg: 456.0000 - val_TNeg: 97.0000 - val_FPos: 383.0000 - 95s/epoch - 98ms/step
+Epoch 24/30
+
+Epoch 24: saving model to Models/insception_FC-CL/epoch_24.h5
+968/968 - 95s - loss: 6.0821 - TPos: 755.0000 - FNeg: 6989.0000 - TNeg: 1646.0000 - FPos: 6098.0000 - val_loss: 6.0512 - val_TPos: 20.0000 - val_FNeg: 460.0000 - val_TNeg: 99.0000 - val_FPos: 381.0000 - 95s/epoch - 98ms/step
+Epoch 25/30
+
+Epoch 25: saving model to Models/insception_FC-CL/epoch_25.h5
+968/968 - 95s - loss: 6.0657 - TPos: 707.0000 - FNeg: 7037.0000 - TNeg: 1572.0000 - FPos: 6172.0000 - val_loss: 6.0403 - val_TPos: 19.0000 - val_FNeg: 461.0000 - val_TNeg: 96.0000 - val_FPos: 384.0000 - 95s/epoch - 98ms/step
+Epoch 26/30
+
+Epoch 26: saving model to Models/insception_FC-CL/epoch_26.h5
+968/968 - 95s - loss: 6.0495 - TPos: 692.0000 - FNeg: 7052.0000 - TNeg: 1480.0000 - FPos: 6264.0000 - val_loss: 6.0260 - val_TPos: 21.0000 - val_FNeg: 459.0000 - val_TNeg: 98.0000 - val_FPos: 382.0000 - 95s/epoch - 98ms/step
+Epoch 27/30
+
+Epoch 27: saving model to Models/insception_FC-CL/epoch_27.h5
+968/968 - 96s - loss: 6.0336 - TPos: 664.0000 - FNeg: 7080.0000 - TNeg: 1399.0000 - FPos: 6345.0000 - val_loss: 6.0204 - val_TPos: 33.0000 - val_FNeg: 447.0000 - val_TNeg: 87.0000 - val_FPos: 393.0000 - 96s/epoch - 99ms/step
+Epoch 28/30
+
+Epoch 28: saving model to Models/insception_FC-CL/epoch_28.h5
+968/968 - 95s - loss: 6.0180 - TPos: 603.0000 - FNeg: 7141.0000 - TNeg: 1342.0000 - FPos: 6402.0000 - val_loss: 6.0010 - val_TPos: 19.0000 - val_FNeg: 461.0000 - val_TNeg: 91.0000 - val_FPos: 389.0000 - 95s/epoch - 98ms/step
+Epoch 29/30
+
+Epoch 29: saving model to Models/insception_FC-CL/epoch_29.h5
+968/968 - 95s - loss: 6.0023 - TPos: 574.0000 - FNeg: 7170.0000 - TNeg: 1290.0000 - FPos: 6454.0000 - val_loss: 5.9907 - val_TPos: 33.0000 - val_FNeg: 447.0000 - val_TNeg: 77.0000 - val_FPos: 403.0000 - 95s/epoch - 98ms/step
+Epoch 30/30
+
+Epoch 30: saving model to Models/insception_FC-CL/epoch_30.h5
+968/968 - 95s - loss: 5.9869 - TPos: 564.0000 - FNeg: 7180.0000 - TNeg: 1213.0000 - FPos: 6531.0000 - val_loss: 5.9836 - val_TPos: 16.0000 - val_FNeg: 464.0000 - val_TNeg: 107.0000 - val_FPos: 373.0000 - 95s/epoch - 98ms/step
+
+Done insception_FC-CL

@@ -1,0 +1,135 @@
+Processing VGG16_EU-CL
+
+2023-04-27 11:14:53.789811: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-04-27 11:14:53.928227: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-04-27 11:14:54.567488: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2023-04-27 11:14:54.567534: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-04-27 11:14:55.297217: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-04-27 11:14:55.869327: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 30970 MB memory:  -> device: 1, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:81:00.0, compute capability: 7.0
+Loaded VGG16_EU-CL model.
+Epoch 1/30
+2023-04-27 11:14:58.878401: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384] Loaded cuDNN version 8101
+2023-04-27 11:14:59.208219: I tensorflow/core/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+
+Epoch 1: saving model to Models/VGG16_EU-CL/epoch_01.h5
+968/968 - 1365s - loss: 0.3406 - TPos: 6582.0000 - FNeg: 1162.0000 - TNeg: 39.0000 - FPos: 7705.0000 - val_loss: 0.2486 - val_TPos: 346.0000 - val_FNeg: 134.0000 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 1365s/epoch - 1s/step
+Epoch 2/30
+
+Epoch 2: saving model to Models/VGG16_EU-CL/epoch_02.h5
+968/968 - 1338s - loss: 0.2525 - TPos: 5689.0000 - FNeg: 2055.0000 - TNeg: 563.0000 - FPos: 7181.0000 - val_loss: 0.2149 - val_TPos: 282.0000 - val_FNeg: 198.0000 - val_TNeg: 6.0000 - val_FPos: 474.0000 - 1338s/epoch - 1s/step
+Epoch 3/30
+
+Epoch 3: saving model to Models/VGG16_EU-CL/epoch_03.h5
+968/968 - 1338s - loss: 0.2228 - TPos: 5434.0000 - FNeg: 2310.0000 - TNeg: 171.0000 - FPos: 7573.0000 - val_loss: 0.1959 - val_TPos: 214.0000 - val_FNeg: 266.0000 - val_TNeg: 17.0000 - val_FPos: 463.0000 - 1338s/epoch - 1s/step
+Epoch 4/30
+
+Epoch 4: saving model to Models/VGG16_EU-CL/epoch_04.h5
+968/968 - 1337s - loss: 0.2071 - TPos: 4580.0000 - FNeg: 3164.0000 - TNeg: 314.0000 - FPos: 7430.0000 - val_loss: 0.1935 - val_TPos: 102.0000 - val_FNeg: 378.0000 - val_TNeg: 54.0000 - val_FPos: 426.0000 - 1337s/epoch - 1s/step
+Epoch 5/30
+
+Epoch 5: saving model to Models/VGG16_EU-CL/epoch_05.h5
+968/968 - 1337s - loss: 0.1961 - TPos: 3888.0000 - FNeg: 3856.0000 - TNeg: 442.0000 - FPos: 7302.0000 - val_loss: 0.1701 - val_TPos: 174.0000 - val_FNeg: 306.0000 - val_TNeg: 18.0000 - val_FPos: 462.0000 - 1337s/epoch - 1s/step
+Epoch 6/30
+
+Epoch 6: saving model to Models/VGG16_EU-CL/epoch_06.h5
+968/968 - 1336s - loss: 0.1891 - TPos: 3325.0000 - FNeg: 4419.0000 - TNeg: 602.0000 - FPos: 7142.0000 - val_loss: 0.1661 - val_TPos: 126.0000 - val_FNeg: 354.0000 - val_TNeg: 27.0000 - val_FPos: 453.0000 - 1336s/epoch - 1s/step
+Epoch 7/30
+
+Epoch 7: saving model to Models/VGG16_EU-CL/epoch_07.h5
+968/968 - 1337s - loss: 0.1817 - TPos: 2870.0000 - FNeg: 4874.0000 - TNeg: 697.0000 - FPos: 7047.0000 - val_loss: 0.1585 - val_TPos: 134.0000 - val_FNeg: 346.0000 - val_TNeg: 28.0000 - val_FPos: 452.0000 - 1337s/epoch - 1s/step
+Epoch 8/30
+
+Epoch 8: saving model to Models/VGG16_EU-CL/epoch_08.h5
+968/968 - 1336s - loss: 0.1747 - TPos: 2462.0000 - FNeg: 5282.0000 - TNeg: 739.0000 - FPos: 7005.0000 - val_loss: 0.1637 - val_TPos: 26.0000 - val_FNeg: 454.0000 - val_TNeg: 96.0000 - val_FPos: 384.0000 - 1336s/epoch - 1s/step
+Epoch 9/30
+
+Epoch 9: saving model to Models/VGG16_EU-CL/epoch_09.h5
+968/968 - 1335s - loss: 0.1701 - TPos: 2225.0000 - FNeg: 5519.0000 - TNeg: 878.0000 - FPos: 6866.0000 - val_loss: 0.1565 - val_TPos: 32.0000 - val_FNeg: 448.0000 - val_TNeg: 87.0000 - val_FPos: 393.0000 - 1335s/epoch - 1s/step
+Epoch 10/30
+
+Epoch 10: saving model to Models/VGG16_EU-CL/epoch_10.h5
+968/968 - 1335s - loss: 0.1641 - TPos: 1991.0000 - FNeg: 5753.0000 - TNeg: 932.0000 - FPos: 6812.0000 - val_loss: 0.1416 - val_TPos: 102.0000 - val_FNeg: 378.0000 - val_TNeg: 39.0000 - val_FPos: 441.0000 - 1335s/epoch - 1s/step
+Epoch 11/30
+
+Epoch 11: saving model to Models/VGG16_EU-CL/epoch_11.h5
+968/968 - 1335s - loss: 0.1591 - TPos: 1781.0000 - FNeg: 5963.0000 - TNeg: 955.0000 - FPos: 6789.0000 - val_loss: 0.1412 - val_TPos: 54.0000 - val_FNeg: 426.0000 - val_TNeg: 68.0000 - val_FPos: 412.0000 - 1335s/epoch - 1s/step
+Epoch 12/30
+
+Epoch 12: saving model to Models/VGG16_EU-CL/epoch_12.h5
+968/968 - 1335s - loss: 0.1533 - TPos: 1553.0000 - FNeg: 6191.0000 - TNeg: 962.0000 - FPos: 6782.0000 - val_loss: 0.1305 - val_TPos: 44.0000 - val_FNeg: 436.0000 - val_TNeg: 55.0000 - val_FPos: 425.0000 - 1335s/epoch - 1s/step
+Epoch 13/30
+
+Epoch 13: saving model to Models/VGG16_EU-CL/epoch_13.h5
+968/968 - 1335s - loss: 0.1506 - TPos: 1471.0000 - FNeg: 6273.0000 - TNeg: 1089.0000 - FPos: 6655.0000 - val_loss: 0.1281 - val_TPos: 46.0000 - val_FNeg: 434.0000 - val_TNeg: 53.0000 - val_FPos: 427.0000 - 1335s/epoch - 1s/step
+Epoch 14/30
+
+Epoch 14: saving model to Models/VGG16_EU-CL/epoch_14.h5
+968/968 - 1335s - loss: 0.1442 - TPos: 1369.0000 - FNeg: 6375.0000 - TNeg: 990.0000 - FPos: 6754.0000 - val_loss: 0.1367 - val_TPos: 16.0000 - val_FNeg: 464.0000 - val_TNeg: 104.0000 - val_FPos: 376.0000 - 1335s/epoch - 1s/step
+Epoch 15/30
+
+Epoch 15: saving model to Models/VGG16_EU-CL/epoch_15.h5
+968/968 - 1334s - loss: 0.1402 - TPos: 1218.0000 - FNeg: 6526.0000 - TNeg: 1013.0000 - FPos: 6731.0000 - val_loss: 0.1250 - val_TPos: 58.0000 - val_FNeg: 422.0000 - val_TNeg: 50.0000 - val_FPos: 430.0000 - 1334s/epoch - 1s/step
+Epoch 16/30
+
+Epoch 16: saving model to Models/VGG16_EU-CL/epoch_16.h5
+968/968 - 1334s - loss: 0.1355 - TPos: 1131.0000 - FNeg: 6613.0000 - TNeg: 998.0000 - FPos: 6746.0000 - val_loss: 0.1383 - val_TPos: 20.0000 - val_FNeg: 460.0000 - val_TNeg: 117.0000 - val_FPos: 363.0000 - 1334s/epoch - 1s/step
+Epoch 17/30
+
+Epoch 17: saving model to Models/VGG16_EU-CL/epoch_17.h5
+968/968 - 1334s - loss: 0.1303 - TPos: 1038.0000 - FNeg: 6706.0000 - TNeg: 945.0000 - FPos: 6799.0000 - val_loss: 0.1200 - val_TPos: 40.0000 - val_FNeg: 440.0000 - val_TNeg: 76.0000 - val_FPos: 404.0000 - 1334s/epoch - 1s/step
+Epoch 18/30
+
+Epoch 18: saving model to Models/VGG16_EU-CL/epoch_18.h5
+968/968 - 1333s - loss: 0.1257 - TPos: 989.0000 - FNeg: 6755.0000 - TNeg: 907.0000 - FPos: 6837.0000 - val_loss: 0.1266 - val_TPos: 20.0000 - val_FNeg: 460.0000 - val_TNeg: 103.0000 - val_FPos: 377.0000 - 1333s/epoch - 1s/step
+Epoch 19/30
+
+Epoch 19: saving model to Models/VGG16_EU-CL/epoch_19.h5
+968/968 - 1332s - loss: 0.1198 - TPos: 891.0000 - FNeg: 6853.0000 - TNeg: 834.0000 - FPos: 6910.0000 - val_loss: 0.1196 - val_TPos: 24.0000 - val_FNeg: 456.0000 - val_TNeg: 86.0000 - val_FPos: 394.0000 - 1332s/epoch - 1s/step
+Epoch 20/30
+
+Epoch 20: saving model to Models/VGG16_EU-CL/epoch_20.h5
+968/968 - 1333s - loss: 0.1147 - TPos: 798.0000 - FNeg: 6946.0000 - TNeg: 830.0000 - FPos: 6914.0000 - val_loss: 0.1162 - val_TPos: 48.0000 - val_FNeg: 432.0000 - val_TNeg: 69.0000 - val_FPos: 411.0000 - 1333s/epoch - 1s/step
+Epoch 21/30
+
+Epoch 21: saving model to Models/VGG16_EU-CL/epoch_21.h5
+968/968 - 1331s - loss: 0.1106 - TPos: 748.0000 - FNeg: 6996.0000 - TNeg: 771.0000 - FPos: 6973.0000 - val_loss: 0.1440 - val_TPos: 4.0000 - val_FNeg: 476.0000 - val_TNeg: 188.0000 - val_FPos: 292.0000 - 1331s/epoch - 1s/step
+Epoch 22/30
+
+Epoch 22: saving model to Models/VGG16_EU-CL/epoch_22.h5
+968/968 - 1333s - loss: 0.1032 - TPos: 623.0000 - FNeg: 7121.0000 - TNeg: 651.0000 - FPos: 7093.0000 - val_loss: 0.1143 - val_TPos: 56.0000 - val_FNeg: 424.0000 - val_TNeg: 56.0000 - val_FPos: 424.0000 - 1333s/epoch - 1s/step
+Epoch 23/30
+
+Epoch 23: saving model to Models/VGG16_EU-CL/epoch_23.h5
+968/968 - 1334s - loss: 0.0982 - TPos: 563.0000 - FNeg: 7181.0000 - TNeg: 575.0000 - FPos: 7169.0000 - val_loss: 0.1170 - val_TPos: 50.0000 - val_FNeg: 430.0000 - val_TNeg: 73.0000 - val_FPos: 407.0000 - 1334s/epoch - 1s/step
+Epoch 24/30
+
+Epoch 24: saving model to Models/VGG16_EU-CL/epoch_24.h5
+968/968 - 1334s - loss: 0.0933 - TPos: 531.0000 - FNeg: 7213.0000 - TNeg: 515.0000 - FPos: 7229.0000 - val_loss: 0.1183 - val_TPos: 86.0000 - val_FNeg: 394.0000 - val_TNeg: 55.0000 - val_FPos: 425.0000 - 1334s/epoch - 1s/step
+Epoch 25/30
+
+Epoch 25: saving model to Models/VGG16_EU-CL/epoch_25.h5
+968/968 - 1333s - loss: 0.0874 - TPos: 468.0000 - FNeg: 7276.0000 - TNeg: 483.0000 - FPos: 7261.0000 - val_loss: 0.1252 - val_TPos: 10.0000 - val_FNeg: 470.0000 - val_TNeg: 138.0000 - val_FPos: 342.0000 - 1333s/epoch - 1s/step
+Epoch 26/30
+
+Epoch 26: saving model to Models/VGG16_EU-CL/epoch_26.h5
+968/968 - 1334s - loss: 0.0829 - TPos: 446.0000 - FNeg: 7298.0000 - TNeg: 390.0000 - FPos: 7354.0000 - val_loss: 0.1117 - val_TPos: 74.0000 - val_FNeg: 406.0000 - val_TNeg: 53.0000 - val_FPos: 427.0000 - 1334s/epoch - 1s/step
+Epoch 27/30
+
+Epoch 27: saving model to Models/VGG16_EU-CL/epoch_27.h5
+968/968 - 1333s - loss: 0.0789 - TPos: 399.0000 - FNeg: 7345.0000 - TNeg: 406.0000 - FPos: 7338.0000 - val_loss: 0.1142 - val_TPos: 26.0000 - val_FNeg: 454.0000 - val_TNeg: 105.0000 - val_FPos: 375.0000 - 1333s/epoch - 1s/step
+Epoch 28/30
+
+Epoch 28: saving model to Models/VGG16_EU-CL/epoch_28.h5
+968/968 - 1333s - loss: 0.0734 - TPos: 361.0000 - FNeg: 7383.0000 - TNeg: 298.0000 - FPos: 7446.0000 - val_loss: 0.1145 - val_TPos: 24.0000 - val_FNeg: 456.0000 - val_TNeg: 101.0000 - val_FPos: 379.0000 - 1333s/epoch - 1s/step
+Epoch 29/30
+
+Epoch 29: saving model to Models/VGG16_EU-CL/epoch_29.h5
+968/968 - 1333s - loss: 0.0689 - TPos: 302.0000 - FNeg: 7442.0000 - TNeg: 259.0000 - FPos: 7485.0000 - val_loss: 0.1147 - val_TPos: 46.0000 - val_FNeg: 434.0000 - val_TNeg: 83.0000 - val_FPos: 397.0000 - 1333s/epoch - 1s/step
+Epoch 30/30
+
+Epoch 30: saving model to Models/VGG16_EU-CL/epoch_30.h5
+968/968 - 1333s - loss: 0.0641 - TPos: 266.0000 - FNeg: 7478.0000 - TNeg: 235.0000 - FPos: 7509.0000 - val_loss: 0.1148 - val_TPos: 66.0000 - val_FNeg: 414.0000 - val_TNeg: 77.0000 - val_FPos: 403.0000 - 1333s/epoch - 1s/step
+
+Done VGG16_EU-CL
