@@ -1,0 +1,135 @@
+Processing resnet50_ED-CL
+
+2023-04-03 21:02:15.889512: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-04-03 21:02:16.032788: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-04-03 21:02:16.669769: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2023-04-03 21:02:16.669812: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-04-03 21:02:17.480837: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-04-03 21:02:18.141056: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 30970 MB memory:  -> device: 1, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:81:00.0, compute capability: 7.0
+Loaded resnet50_ED-CL model.
+Epoch 1/30
+2023-04-03 21:02:29.596430: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384] Loaded cuDNN version 8101
+2023-04-03 21:02:29.954292: I tensorflow/core/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+
+Epoch 1: saving model to Models/resnet50_ED-CL/epoch_01.h5
+968/968 - 143s - loss: 2.2817 - TPos: 61.0000 - FNeg: 7683.0000 - TNeg: 7682.0000 - FPos: 62.0000 - val_loss: 0.9124 - val_TPos: 146.0000 - val_FNeg: 334.0000 - val_TNeg: 467.0000 - val_FPos: 13.0000 - 143s/epoch - 148ms/step
+Epoch 2/30
+
+Epoch 2: saving model to Models/resnet50_ED-CL/epoch_02.h5
+968/968 - 131s - loss: 0.6607 - TPos: 470.0000 - FNeg: 7274.0000 - TNeg: 7340.0000 - FPos: 404.0000 - val_loss: 0.7956 - val_TPos: 124.0000 - val_FNeg: 356.0000 - val_TNeg: 478.0000 - val_FPos: 2.0000 - 131s/epoch - 135ms/step
+Epoch 3/30
+
+Epoch 3: saving model to Models/resnet50_ED-CL/epoch_03.h5
+968/968 - 130s - loss: 0.6565 - TPos: 563.0000 - FNeg: 7181.0000 - TNeg: 7192.0000 - FPos: 552.0000 - val_loss: 0.5317 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 130s/epoch - 135ms/step
+Epoch 4/30
+
+Epoch 4: saving model to Models/resnet50_ED-CL/epoch_04.h5
+968/968 - 131s - loss: 0.5957 - TPos: 3510.0000 - FNeg: 4234.0000 - TNeg: 4309.0000 - FPos: 3435.0000 - val_loss: 0.7962 - val_TPos: 142.0000 - val_FNeg: 338.0000 - val_TNeg: 468.0000 - val_FPos: 12.0000 - 131s/epoch - 135ms/step
+Epoch 5/30
+
+Epoch 5: saving model to Models/resnet50_ED-CL/epoch_05.h5
+968/968 - 132s - loss: 0.6786 - TPos: 971.0000 - FNeg: 6773.0000 - TNeg: 6755.0000 - FPos: 989.0000 - val_loss: 0.5103 - val_TPos: 308.0000 - val_FNeg: 172.0000 - val_TNeg: 301.0000 - val_FPos: 179.0000 - 132s/epoch - 137ms/step
+Epoch 6/30
+
+Epoch 6: saving model to Models/resnet50_ED-CL/epoch_06.h5
+968/968 - 131s - loss: 0.4621 - TPos: 5371.0000 - FNeg: 2373.0000 - TNeg: 2607.0000 - FPos: 5137.0000 - val_loss: 0.4315 - val_TPos: 478.0000 - val_FNeg: 2.0000 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 131s/epoch - 135ms/step
+Epoch 7/30
+
+Epoch 7: saving model to Models/resnet50_ED-CL/epoch_07.h5
+968/968 - 132s - loss: 0.4062 - TPos: 4813.0000 - FNeg: 2931.0000 - TNeg: 3182.0000 - FPos: 4562.0000 - val_loss: 0.3879 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 132s/epoch - 136ms/step
+Epoch 8/30
+
+Epoch 8: saving model to Models/resnet50_ED-CL/epoch_08.h5
+968/968 - 132s - loss: 0.3620 - TPos: 5484.0000 - FNeg: 2260.0000 - TNeg: 2358.0000 - FPos: 5386.0000 - val_loss: 0.3435 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 132s/epoch - 137ms/step
+Epoch 9/30
+
+Epoch 9: saving model to Models/resnet50_ED-CL/epoch_09.h5
+968/968 - 133s - loss: 0.3304 - TPos: 5825.0000 - FNeg: 1919.0000 - TNeg: 2036.0000 - FPos: 5708.0000 - val_loss: 0.3162 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 133s/epoch - 137ms/step
+Epoch 10/30
+
+Epoch 10: saving model to Models/resnet50_ED-CL/epoch_10.h5
+968/968 - 132s - loss: 0.3303 - TPos: 5787.0000 - FNeg: 1957.0000 - TNeg: 1970.0000 - FPos: 5774.0000 - val_loss: 0.2949 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 132s/epoch - 136ms/step
+Epoch 11/30
+
+Epoch 11: saving model to Models/resnet50_ED-CL/epoch_11.h5
+968/968 - 133s - loss: 0.2830 - TPos: 6946.0000 - FNeg: 798.0000 - TNeg: 817.0000 - FPos: 6927.0000 - val_loss: 0.2719 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 133s/epoch - 137ms/step
+Epoch 12/30
+
+Epoch 12: saving model to Models/resnet50_ED-CL/epoch_12.h5
+968/968 - 133s - loss: 0.2943 - TPos: 7222.0000 - FNeg: 522.0000 - TNeg: 590.0000 - FPos: 7154.0000 - val_loss: 0.2788 - val_TPos: 386.0000 - val_FNeg: 94.0000 - val_TNeg: 211.0000 - val_FPos: 269.0000 - 133s/epoch - 137ms/step
+Epoch 13/30
+
+Epoch 13: saving model to Models/resnet50_ED-CL/epoch_13.h5
+968/968 - 133s - loss: 0.2692 - TPos: 7617.0000 - FNeg: 127.0000 - TNeg: 155.0000 - FPos: 7589.0000 - val_loss: 0.2626 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 133s/epoch - 137ms/step
+Epoch 14/30
+
+Epoch 14: saving model to Models/resnet50_ED-CL/epoch_14.h5
+968/968 - 132s - loss: 0.2798 - TPos: 7468.0000 - FNeg: 276.0000 - TNeg: 323.0000 - FPos: 7421.0000 - val_loss: 0.2861 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 132s/epoch - 136ms/step
+Epoch 15/30
+
+Epoch 15: saving model to Models/resnet50_ED-CL/epoch_15.h5
+968/968 - 132s - loss: 0.2680 - TPos: 7728.0000 - FNeg: 16.0000 - TNeg: 29.0000 - FPos: 7715.0000 - val_loss: 0.2593 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 132s/epoch - 136ms/step
+Epoch 16/30
+
+Epoch 16: saving model to Models/resnet50_ED-CL/epoch_16.h5
+968/968 - 132s - loss: 0.2584 - TPos: 7635.0000 - FNeg: 109.0000 - TNeg: 132.0000 - FPos: 7612.0000 - val_loss: 0.2620 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 132s/epoch - 136ms/step
+Epoch 17/30
+
+Epoch 17: saving model to Models/resnet50_ED-CL/epoch_17.h5
+968/968 - 132s - loss: 0.2607 - TPos: 7648.0000 - FNeg: 96.0000 - TNeg: 108.0000 - FPos: 7636.0000 - val_loss: 0.2548 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 132s/epoch - 136ms/step
+Epoch 18/30
+
+Epoch 18: saving model to Models/resnet50_ED-CL/epoch_18.h5
+968/968 - 131s - loss: 0.3001 - TPos: 5852.0000 - FNeg: 1892.0000 - TNeg: 1964.0000 - FPos: 5780.0000 - val_loss: 0.2903 - val_TPos: 462.0000 - val_FNeg: 18.0000 - val_TNeg: 24.0000 - val_FPos: 456.0000 - 131s/epoch - 135ms/step
+Epoch 19/30
+
+Epoch 19: saving model to Models/resnet50_ED-CL/epoch_19.h5
+968/968 - 131s - loss: 0.2681 - TPos: 7638.0000 - FNeg: 106.0000 - TNeg: 149.0000 - FPos: 7595.0000 - val_loss: 0.2609 - val_TPos: 424.0000 - val_FNeg: 56.0000 - val_TNeg: 70.0000 - val_FPos: 410.0000 - 131s/epoch - 136ms/step
+Epoch 20/30
+
+Epoch 20: saving model to Models/resnet50_ED-CL/epoch_20.h5
+968/968 - 131s - loss: 0.2586 - TPos: 7542.0000 - FNeg: 202.0000 - TNeg: 256.0000 - FPos: 7488.0000 - val_loss: 0.2589 - val_TPos: 466.0000 - val_FNeg: 14.0000 - val_TNeg: 28.0000 - val_FPos: 452.0000 - 131s/epoch - 136ms/step
+Epoch 21/30
+
+Epoch 21: saving model to Models/resnet50_ED-CL/epoch_21.h5
+968/968 - 131s - loss: 0.2568 - TPos: 7579.0000 - FNeg: 165.0000 - TNeg: 175.0000 - FPos: 7569.0000 - val_loss: 0.2529 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 131s/epoch - 135ms/step
+Epoch 22/30
+
+Epoch 22: saving model to Models/resnet50_ED-CL/epoch_22.h5
+968/968 - 132s - loss: 0.2726 - TPos: 5810.0000 - FNeg: 1934.0000 - TNeg: 1992.0000 - FPos: 5752.0000 - val_loss: 0.3057 - val_TPos: 228.0000 - val_FNeg: 252.0000 - val_TNeg: 384.0000 - val_FPos: 96.0000 - 132s/epoch - 136ms/step
+Epoch 23/30
+
+Epoch 23: saving model to Models/resnet50_ED-CL/epoch_23.h5
+968/968 - 131s - loss: 0.2638 - TPos: 7703.0000 - FNeg: 41.0000 - TNeg: 45.0000 - FPos: 7699.0000 - val_loss: 0.2552 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 131s/epoch - 135ms/step
+Epoch 24/30
+
+Epoch 24: saving model to Models/resnet50_ED-CL/epoch_24.h5
+968/968 - 131s - loss: 0.2529 - TPos: 7739.0000 - FNeg: 5.0000 - TNeg: 8.0000 - FPos: 7736.0000 - val_loss: 0.2516 - val_TPos: 480.0000 - val_FNeg: 0.0000e+00 - val_TNeg: 0.0000e+00 - val_FPos: 480.0000 - 131s/epoch - 135ms/step
+Epoch 25/30
+
+Epoch 25: saving model to Models/resnet50_ED-CL/epoch_25.h5
+968/968 - 132s - loss: 0.2451 - TPos: 7564.0000 - FNeg: 180.0000 - TNeg: 68.0000 - FPos: 7676.0000 - val_loss: 0.2579 - val_TPos: 208.0000 - val_FNeg: 272.0000 - val_TNeg: 172.0000 - val_FPos: 308.0000 - 132s/epoch - 136ms/step
+Epoch 26/30
+
+Epoch 26: saving model to Models/resnet50_ED-CL/epoch_26.h5
+968/968 - 131s - loss: 0.2227 - TPos: 6284.0000 - FNeg: 1460.0000 - TNeg: 135.0000 - FPos: 7609.0000 - val_loss: 0.2071 - val_TPos: 300.0000 - val_FNeg: 180.0000 - val_TNeg: 11.0000 - val_FPos: 469.0000 - 131s/epoch - 136ms/step
+Epoch 27/30
+
+Epoch 27: saving model to Models/resnet50_ED-CL/epoch_27.h5
+968/968 - 132s - loss: 0.2056 - TPos: 4245.0000 - FNeg: 3499.0000 - TNeg: 343.0000 - FPos: 7401.0000 - val_loss: 0.2041 - val_TPos: 280.0000 - val_FNeg: 200.0000 - val_TNeg: 20.0000 - val_FPos: 460.0000 - 132s/epoch - 136ms/step
+Epoch 28/30
+
+Epoch 28: saving model to Models/resnet50_ED-CL/epoch_28.h5
+968/968 - 131s - loss: 0.2184 - TPos: 4017.0000 - FNeg: 3727.0000 - TNeg: 510.0000 - FPos: 7234.0000 - val_loss: 0.1913 - val_TPos: 134.0000 - val_FNeg: 346.0000 - val_TNeg: 51.0000 - val_FPos: 429.0000 - 131s/epoch - 136ms/step
+Epoch 29/30
+
+Epoch 29: saving model to Models/resnet50_ED-CL/epoch_29.h5
+968/968 - 131s - loss: 0.2094 - TPos: 3036.0000 - FNeg: 4708.0000 - TNeg: 772.0000 - FPos: 6972.0000 - val_loss: 0.1836 - val_TPos: 108.0000 - val_FNeg: 372.0000 - val_TNeg: 65.0000 - val_FPos: 415.0000 - 131s/epoch - 136ms/step
+Epoch 30/30
+
+Epoch 30: saving model to Models/resnet50_ED-CL/epoch_30.h5
+968/968 - 132s - loss: 0.2110 - TPos: 2863.0000 - FNeg: 4881.0000 - TNeg: 1062.0000 - FPos: 6682.0000 - val_loss: 0.1908 - val_TPos: 152.0000 - val_FNeg: 328.0000 - val_TNeg: 48.0000 - val_FPos: 432.0000 - 132s/epoch - 136ms/step
+
+Done resnet50_ED-CL
